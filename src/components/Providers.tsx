@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { ThemeProvider } from "next-themes";
+import Footer from './Footer';
 
 interface ProvidersProps {
   children: React.ReactNode;
@@ -35,7 +36,7 @@ export default function Providers({ children, header }: ProvidersProps) {
           {children}
         </main>
         {/* Optional: Add a Footer component here later */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </ThemeProvider>
   );
