@@ -19,3 +19,27 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes fade-in {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fade-in 1.2s cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+.animate-bounce-slow {
+  animation: bounce-slow 2.5s infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { box-shadow: 0 0 0 0 #fde68a; }
+  50% { box-shadow: 0 0 16px 4px #fde68a; }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 2.5s infinite;
+}
