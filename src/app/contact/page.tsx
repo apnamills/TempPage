@@ -10,7 +10,7 @@ export default function Contact() {
         
         <div className="w-full bg-white/80 backdrop-blur-sm rounded-xl shadow-xl border border-green-100/60 p-8 flex flex-col items-center gap-6">
           <p className="text-gray-700 text-lg leading-relaxed mb-4">
-            We'd love to hear from you! Whether you have questions about our products, need assistance with an order, or just want to share your feedback, please feel free to reach out.
+            We&apos;d love to hear from you! Whether you have questions about our products, need assistance with an order, or just want to share your feedback, please feel free to reach out.
           </p>
 
           <div className="w-full flex flex-col items-center gap-4 text-gray-700 text-lg">
